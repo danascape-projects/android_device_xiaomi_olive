@@ -53,6 +53,9 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_SOURCE := kernel/xiaomi/olive
 TARGET_KERNEL_CONFIG := olive-perf_defconfig
 
+# Media
+TARGET_USES_MEDIA_EXTENSIONS := true
+
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
