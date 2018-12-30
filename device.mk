@@ -37,6 +37,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
+# Device-specific Settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Framework detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
