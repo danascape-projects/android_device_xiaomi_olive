@@ -58,9 +58,8 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
 # Properties
+include $(LOCAL_PATH)/product_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.control_privapp_permissions=log
 
 # QCOM
 PRODUCT_COPY_FILES += \
