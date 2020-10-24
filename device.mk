@@ -18,8 +18,12 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # ANT+
+PRODUCT_COPY_FILES += \
+    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml
+
 PRODUCT_PACKAGES += \
-    AntHalService
+    AntHalService \
+    com.dsi.ant.antradio_library
 
 # Bluetooth
 PRODUCT_PACKAGES += \
