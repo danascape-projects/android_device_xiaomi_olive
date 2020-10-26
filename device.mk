@@ -21,6 +21,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_PACKAGES += \
     Snap
 
+# CNE
+PRODUCT_PACKAGES += \
+    libcnefeatureconfig
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
@@ -45,6 +49,16 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+
+# RIl
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.4 \
+    android.hardware.radio.config@1.2 \
+    android.hardware.secure_element@1.0
+
+PRODUCT_PACKAGES += \
+    librmnetctl \
+    libxml2
 
 # Telephony
 PRODUCT_PACKAGES += \
