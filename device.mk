@@ -55,6 +55,8 @@ PRODUCT_PACKAGES += \
 
 # Properties
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.control_privapp_permissions=log
 
 # QCOM
 PRODUCT_COPY_FILES += \
