@@ -43,6 +43,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcrypto
 
+# Kernel
+LOCAL_KERNEL := device/xiaomi/olive-kernel/kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_olive
