@@ -39,6 +39,9 @@ USE_XML_AUDIO_POLICY_CONF := 1
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := olive,olivelite
+
 # AVB
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
