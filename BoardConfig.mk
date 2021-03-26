@@ -40,7 +40,7 @@ USE_XML_AUDIO_POLICY_CONF := 1
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := olive,olivelite
+TARGET_OTA_ASSERT_DEVICE := olive,olivelite.olivewood
 
 # AVB
 BOARD_AVB_ENABLE := true
